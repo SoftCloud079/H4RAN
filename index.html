@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>H4RAN</title>
+
+    <link rel="icon" type="image/png" href="Assets/Blender.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="brand">
+        H4RAN
+    </div>
+
+    <nav class="nav-links">
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#stuff">stuff</a>
+        <a href="#archive">archive</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-stars"></div>
+
+        <div class="hero-small">
+            WELCOME TO MY CORNER OF THE INTERNET
+        </div>
+
+        <h1>
+            hi, i'm <span>H4RAN.</span>
+        </h1>
+
+        <p>
+            I make things, break things, fix things,
+            and occasionally finish them.
+        </p>
+
+        <a class="hero-button" href="#about">
+            <span>look around</span>
+            <span class="button-arrow">↓</span>
+        </a>
+
+    </section>
+
+
+    <section class="section" id="about">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                01
+            </div>
+
+            <h2>about</h2>
+
+        </div>
+
+        <div class="about-card">
+
+            <div class="card-decoration">
+    
+            </div>
+
+            <p class="large-text">
+                I'm H4RAN.
+            </p>
+
+            <p>
+                I like making things and seeing what I can
+                turn an idea into.
+            </p>
+
+            <p>
+                Most of the time that means coding, messing
+                around with computers, making websites, or
+                starting another project when I probably
+                should be finishing the last one.
+            </p>
+
+            <p>
+                This site is my little place on the internet.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="section" id="projects">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                02
+            </div>
+
+            <h2>projects</h2>
+
+        </div>
+
+        <div class="projects-grid">
+
+
+            <button class="project-card"
+                    onclick="openProject('Iris')">
+
+                <div class="project-card-glow"></div>
+
+                <div class="project-header">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                    <span class="status">
+                        COMPLETE - RESTING
+                    </span>
+
+                </div>
+
+                <div class="project-body">
+
+                    <h3>Iris</h3>
+
+                    <p>
+                        The first SoftCloud helper bot.
+                    </p>
+
+                </div>
+
+                <div class="project-footer">
+                    <span>open project</span>
+                    <span>→</span>
+                </div>
+
+            </button>
+
+
+            <button class="project-card"
+                    onclick="openProject('Rocky')">
+
+                <div class="project-card-glow"></div>
+
+                <div class="project-header">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                    <span class="status">
+                        COMPLETE - RESTING
+                    </span>
+
+                </div>
+
+                <div class="project-body">
+
+                    <h3>Rocky</h3>
+
+                    <p>
+                        A Discord bot inspired by Rocky from
+                        Project Hail Mary.
+                    </p>
+
+                </div>
+
+                <div class="project-footer">
+                    <span>open project</span>
+                    <span>→</span>
+                </div>
+
+            </button>
+
+
+            <button class="project-card mryolo-card"
+                    onclick="openProject('MRYOLO_But.hes.in.pain')">
+
+                <div class="mryolo-lines"></div>
+
+                <div class="project-header">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                    <span class="status">
+                        COMPLETE
+                    </span>
+
+                </div>
+
+                <div class="project-body">
+
+                    <h3>MRYOLO_But.hes.in.pain</h3>
+
+                    <p>
+                        A Discord bot created just for fun.
+                    </p>
+
+                </div>
+
+                <div class="project-footer">
+                    <span>open project</span>
+                    <span>→</span>
+                </div>
+
+            </button>
+
+
+            <button class="project-card"
+                    onclick="openProject('Maki')">
+
+                <div class="project-card-glow"></div>
+
+                <div class="project-header">
+
+                    <span class="project-number">
+                        04
+                    </span>
+
+                    <span class="status">
+                        IN DEVELOPMENT
+                    </span>
+
+                </div>
+
+                <div class="project-body">
+
+                    <h3>Maki</h3>
+
+                    <p>
+                        A project currently being worked on.
+                    </p>
+
+                </div>
+
+                <div class="project-footer">
+                    <span>open project</span>
+                    <span>→</span>
+                </div>
+
+            </button>
+
+
+            <button class="project-card"
+                    onclick="openProject('SoftFlow')">
+
+                <div class="project-card-glow"></div>
+
+                <div class="project-header">
+
+                    <span class="project-number">
+                        05
+                    </span>
+
+                    <span class="status">
+                        IN DEVELOPMENT
+                    </span>
+
+                </div>
+
+                <div class="project-body">
+
+                    <h3>SoftFlow</h3>
+
+                    <p>
+                        A desktop productivity app for keeping
+                        things organised.
+                    </p>
+
+                </div>
+
+                <div class="project-footer">
+                    <span>open project</span>
+                    <span>→</span>
+                </div>
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="section" id="stuff">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                03
+            </div>
+
+            <h2>stuff i've made</h2>
+
+        </div>
+
+        <p class="section-intro">
+            Not everything needs to become a big project.
+            Sometimes I just make something because I can.
+        </p>
+
+
+        <div class="gallery">
+
+
+            <button class="gallery-item"
+                    onclick="openImage(
+                        'Assets/BobotEcoAdventure.png',
+                        'Bobot: Eco Adventure'
+                    )">
+
+                <img
+                    src="Assets/BobotEcoAdventure.png"
+                    alt="Bobot Eco Adventure"
+                >
+
+                <div class="gallery-overlay">
+
+                    <span>
+                        Bobot: Eco Adventure
+                    </span>
+
+                    <small>
+                        an old project
+                    </small>
+
+                </div>
+
+            </button>
+
+
+            <button class="gallery-item"
+                    onclick="openImage(
+                        'Assets/Blender.png',
+                        'Blender'
+                    )">
+
+                <img
+                    src="Assets/Blender.png"
+                    alt="Blender project"
+                >
+
+                <div class="gallery-overlay">
+
+                    <span>
+                        Blender
+                    </span>
+
+                    <small>
+                        some 3D stuff
+                    </small>
+
+                </div>
+
+            </button>
+
+
+            <button class="gallery-item"
+                    onclick="openImage(
+                        'Assets/Happy%27s_Juice_Box.jpeg',
+                        'Happy’s Juice Box'
+                    )">
+
+                <img
+                    src="Assets/Happy%27s_Juice_Box.jpeg"
+                    alt="Happy's Juice Box"
+                >
+
+                <div class="gallery-overlay">
+
+                    <span>
+                        Happy's Juice Box
+                    </span>
+
+                    <small>
+                        yes, it's a juice box
+                    </small>
+
+                </div>
+
+            </button>
+
+
+            <button class="gallery-item"
+                    onclick="openImage(
+                        'Assets/Lamp.JPG',
+                        'Lamp'
+                    )">
+
+                <img
+                    src="Assets/Lamp.JPG"
+                    alt="Lamp model"
+                >
+
+                <div class="gallery-overlay">
+
+                    <span>
+                        Lamp
+                    </span>
+
+                    <small>
+                        a little modelling project
+                    </small>
+
+                </div>
+
+            </button>
+
+
+            <button class="gallery-item"
+                    onclick="openImage(
+                        'Assets/Revit%20house%20model.png',
+                        'Revit House Model'
+                    )">
+
+                <img
+                    src="Assets/Revit%20house%20model.png"
+                    alt="Revit house model"
+                >
+
+                <div class="gallery-overlay">
+
+                    <span>
+                        Revit House Model
+                    </span>
+
+                    <small>
+                        architectural modelling
+                    </small>
+
+                </div>
+
+            </button>
+
+
+            <button class="gallery-item"
+                    onclick="openImage(
+                        'Assets/SkateBoard.jpeg',
+                        'SkateBoard'
+                    )">
+
+                <img
+                    src="Assets/SkateBoard.jpeg"
+                    alt="Skateboard model"
+                >
+
+                <div class="gallery-overlay">
+
+                    <span>
+                        SkateBoard
+                    </span>
+
+                    <small>
+                        another thing I made
+                    </small>
+
+                </div>
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="section" id="archive">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                04
+            </div>
+
+            <h2>archive</h2>
+
+        </div>
+
+
+        <button class="archive-card"
+                onclick="openArchive()">
+
+            <div class="archive-cloud">
+                ☁
+            </div>
+
+            <div class="archive-info">
+
+                <span class="archive-name">
+                    SoftCloud
+                </span>
+
+                <span class="archive-years">
+                    2025 — 2026
+                </span>
+
+            </div>
+
+            <div class="archive-open">
+                <span>view archive</span>
+                <span>→</span>
+            </div>
+
+        </button>
+
+
+        <p class="archive-note">
+            SoftCloud is retired, but the things made there
+            are still part of where I got here.
+        </p>
+
+    </section>
+
+
+    <section class="final-section">
+
+        <div class="final-line"></div>
+
+        <p>
+            anyway, that's about it.
+        </p>
+
+        <p>
+            thanks for looking around.
+        </p>
+
+
+        <div class="random-box">
+
+            <div class="random-label">
+                H4RAN SAYS
+            </div>
+
+            <p id="randomOutput">
+                click the button
+            </p>
+
+            <button
+                class="random-button"
+                onclick="randomThing()"
+            >
+                <span>give me something</span>
+                <span>↻</span>
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-left">
+        H4RAN
+    </div>
+
+    <div class="footer-right">
+        made by me, probably at 2am
+    </div>
+
+</footer>
+
+
+<div
+    id="popupBackground"
+    class="popup-background"
+    onclick="closeProject(event)"
+>
+
+    <div
+        id="projectPopup"
+        class="project-popup"
+        onclick="event.stopPropagation()"
+    >
+
+        <button
+            class="close-popup"
+            onclick="closeProject(event)"
+        >
+            ×
+        </button>
+
+        <div class="popup-top">
+            PROJECT
+        </div>
+
+        <h2 id="popupTitle">
+            Project
+        </h2>
+
+        <div id="popupDescription">
+            Description
+        </div>
+
+        <div
+            id="popupStatus"
+            class="popup-status"
+        >
+            STATUS
+        </div>
+
+    </div>
+
+</div>
+
+
+<div
+    id="imageViewer"
+    class="image-viewer"
+    onclick="closeImage(event)"
+>
+
+    <div
+        class="image-viewer-content"
+        onclick="event.stopPropagation()"
+    >
+
+        <button
+            class="close-image"
+            onclick="closeImage(event)"
+        >
+            ×
+        </button>
+
+        <img
+            id="viewerImage"
+            src=""
+            alt=""
+        >
+
+        <div id="viewerTitle"></div>
+
+    </div>
+
+</div>
+
+
+<div
+    id="archivePopup"
+    class="archive-popup"
+    onclick="closeArchive(event)"
+>
+
+    <div
+        class="archive-popup-content"
+        onclick="event.stopPropagation()"
+    >
+
+        <button
+            class="close-archive"
+            onclick="closeArchive(event)"
+        >
+            ×
+        </button>
+
+        <div class="archive-small">
+            ARCHIVE
+        </div>
+
+        <h2>SoftCloud</h2>
+
+        <div class="archive-popup-years">
+            2025 — 2026
+        </div>
+
+        <p>
+            SoftCloud started as my own personal space.
+        </p>
+
+        <p>
+            It was somewhere I could escape the pressure
+            of everyday life, experiment with ideas, and
+            create things simply because I enjoyed making them.
+        </p>
+
+        <p>
+            There were no expectations and no deadlines.
+            Just creativity and me.
+        </p>
+
+        <p>
+            SoftCloud was never created to be a business.
+            It was simply a place to build things, learn,
+            fail, improve, and keep creating.
+        </p>
+
+        <div class="retired-label">
+            RETIRED
+        </div>
+
+    </div>
+
+</div>
+
+
+<div
+    class="deer-easter"
+    onclick="showDeer()"
+    title="?"
+>
+    <img
+        src="Assets/DEER.png"
+        alt=""
+    >
+</div>
+
+
+<div
+    id="deer-message"
+    class="deer-message"
+    onclick="closeDeer(event)"
+>
+
+    <div
+        class="deer-message-content"
+        onclick="event.stopPropagation()"
+    >
+
+        <button
+            class="close-deer"
+            onclick="closeDeer(event)"
+        >
+            ×
+        </button>
+
+        <img
+            src="Assets/DEER.png"
+            alt="SoftCloud Deer"
+        >
+
+        <h2>You found a deer!</h2>
+
+        <p>
+            Deer are cute and awesome.
+        </p>
+
+        <p>
+            A small reminder that every idea starts somewhere.
+        </p>
+
+        <p>
+            Keep exploring, keep creating,
+            and remember to take breaks.
+        </p>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
